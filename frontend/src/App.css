@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.task-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-item h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.task-item p {
+  margin: 0;
+  color: #666;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}
